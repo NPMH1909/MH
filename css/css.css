@@ -583,7 +583,7 @@ color: #F29EB0;
 	--color-text: #222;
 	--color-text2: #465b52;
 	--color-text3: #1a1a1a;
-	--color-hover-a: #088178;
+	--color-hover-a: #088178;	
 	--color-border: #cce7d0;
 	--background-color-header: #e3e6f3;
 	--background-color-h6: #fddde4;
@@ -695,7 +695,7 @@ color: #F29EB0;
 	}
   
 	#close {
-	  display: block;
+	  display: block !important;
 	  position: absolute;
 	  top: 30px;
 	  left: 30px;
@@ -707,6 +707,11 @@ color: #F29EB0;
 	  display: none;
 	}
   
+	
+	#avatar {
+		display: none;
+	  }
+	
 	#hero {
 	  height: 70vh;
 	  padding: 0 80px;
@@ -771,7 +776,6 @@ color: #F29EB0;
 	#form-details form {
 	  width: 50%;
 	}
-  
 	/* Cart Page */
   }
 #hero {
@@ -1265,13 +1269,14 @@ color: #F29EB0;
 	padding-bottom: 25px;
 	display: flex;
 	align-items: flex-start;
+	
   }
   
   #form-details .people div img {
 	width: 65px;
 	height: 65px;
 	object-fit: cover;
-	margin-right: 15px;
+	margin: 30px;
   }
   
   #form-details .people div p {
@@ -1447,4 +1452,9 @@ color: #F29EB0;
 	border: none;
 	outline: none;
 	transition: 0.2s;
+  }
+
+
+  #close {
+	display: none ;
   }
